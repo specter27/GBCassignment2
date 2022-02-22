@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LessonDetailActivity">
+
+
+    <TextView
+        android:id="@+id/videoTitle"
+        android:layout_width="310dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:text="Video Title"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/videoDescription"
+        android:layout_width="363dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="144dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Video Description"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lengthDetail"
+        android:layout_width="310dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="28dp"
+        android:textAlignment="center"
+        android:justificationMode="inter_word"
+        android:text="Length: 1 hours 20 min"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/videoDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/lectureNotes"
+        android:layout_width="372dp"
+        android:layout_height="232dp"
+        android:layout_marginBottom="140dp"
+        android:textAlignment="textStart"
+        android:text="Lecture Notes"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/saveNote"
+        android:layout_width="161dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="240dp"
+        android:text="Save Notes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lectureNotes" />
+
+    <Button
+        android:id="@+id/completionButton"
+        android:layout_width="198dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="28dp"
+        android:text="Mark Complete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="197dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="172dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Take Notes:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/videoDescription" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="181dp"
+        android:layout_height="39dp"
+        android:text="Watch Lesson"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/videoDescription"
+        app:layout_constraintVertical_bias="0.763" />
+
+    <TextView
+        android:id="@+id/completionStatus"
+        android:layout_width="196dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="60dp"
+        android:background="#EE4CAF50"
+        android:fontFamily="sans-serif-medium"
+        android:text="Completed"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lectureNotes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
