@@ -19,7 +19,7 @@ An **Mobile-Application** for `Video Tutorials` Developed for **Android Platform
 
 ## Additional Info
 
-> * Application Features Video Demonstartion :movie_camera: [Here](https://drive.google.com/file/d/1T1OEZh0ACARThKQSm5i4UwpWj5wzqZ_k/view?usp=sharing).
+> * Application Features Video Demonstartion :movie_camera: [Here](https://drive.google.com/file/d/1nymLfHgTzdGvWKGvdWPbG4gM5OmmWrIp/view?usp=sharing).
 > * Detailed Description of the Application :mag::page_with_curl:  [Here](https://drive.google.com/file/d/1ooqEUNDkjag1gqWGWC3FfAYIqwlE2aLH/view?usp=sharing).
 
 **Authors**: `Harshit Malhotra`, `Nikhil Sharma`
